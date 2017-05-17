@@ -1,0 +1,28 @@
+{
+  "name": "line-intersect-2d",
+  "version": "0.0.1",
+  "description": "A simple library to get point of intersection between lines",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratikv/line-intersect-2d.git"
+  },
+  "keywords": [
+    "line",
+    "2d",
+    "intersect"
+  ],
+  "devDependencies": {
+    "expect": "1.20.2",
+    "mocha": "3.3.0"
+  },
+  "author": "pratikv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pratikv/line-intersect-2d/issues"
+  },
+  "homepage": "https://github.com/pratikv/line-intersect-2d#readme"
+}
