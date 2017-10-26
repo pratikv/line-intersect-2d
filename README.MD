@@ -19,6 +19,6 @@ var tol = 0.000006; // The tolerance to check for equality. It is 0.000005 by de
 var allowExtend = false; // Treat it as a line segment
 var b = lineIntersect.intersect(p1,p2,p3,p4, tol, allowExtend); // b = null, since allow extend is false.
 
-var allowExtend = true; // Treat it as a line segment
-var b = lineIntersect.intersect(p1,p2,p3,p4, tol, allowExtend); // b = [1,0], since allow extend is false.
+var allowExtend = true; // Treat it as an infinite line
+var b = lineIntersect.intersect(p1,p2,p3,p4, tol, allowExtend); // b = [1,0], since allow extend is true.
 ```
