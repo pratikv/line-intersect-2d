@@ -24,7 +24,7 @@ function intersect(p1, p2, p3, p4, tol, allowExtend) {
     if (Math.abs(crossProd) <= tol) {
         return;
     }
-    var t2 = vectorMath.cross(vectorMath.subtract(p1, p3), v1) / crossProd;
+    var t2 = vectorMath.cross(v1,vectorMath.subtract(p1, p3)) / crossProd;
 
     var t1 = vectorMath.cross(vectorMath.subtract(p3, p1), v2) / crossProd;
 
